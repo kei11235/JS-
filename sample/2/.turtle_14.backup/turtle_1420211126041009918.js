@@ -16,13 +16,13 @@ const setup = function () {
 
 // 絵を描く（紙、カメ）
 const draw = function (p, t) {
-	p.styleClear().color("White").draw();  // 消す
+// 	p.styleClear().color("White").draw();  // 消す
 	t.home();  // ホームに帰る
 
 	t.mode("fillStroke");  // モードを設定
-	t.fill().grad("radius").addColor("Blue").addColor("Red").addColor("Green");  // ぬりスタイル
-	t.stroke().color("Green").width(10).dash([8, 4]);  // 線スタイル
-	t.edge(PATH.normalEdge());  // エッジを設定
+	t.fill().grad("radius").addColor("Red").addColor("Orange").addColor("Yellow").addColor("Green").addColor("Blue").addColor("Indigo").addColor("Purple");  // ぬりスタイル
+	t.stroke().color("Green").width(4).dash([3, 4]);  // 線スタイル
+	t.edge(PATH.sawtoEdge(50, 10));  // エッジを設定
 	t.step(2);
 
 	t.pd();  // ペンを下ろす
@@ -34,5 +34,5 @@ const draw = function (p, t) {
 	t.cl(90, 72, 90);
 
 	t.pu();  // ペンを上げる
-	t.stepNext(5);  // カメのアニメを進める
+	t.stepNext(3);  // カメのアニメを進める
 };

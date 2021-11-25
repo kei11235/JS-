@@ -19,8 +19,8 @@ const draw = function (p, t) {
 	p.styleClear().color("White").draw();  // 消す
 	t.home();  // ホームに帰る
 
-	t.mode("fillStroke");  // モードを設定
-	t.fill().grad("radius").addColor("Blue").addColor("Red").addColor("Green");  // ぬりスタイル
+	t.mode("stroke");  // モードを設定
+	t.fill();  // ぬりスタイル
 	t.stroke().color("Green").width(10).dash([8, 4]);  // 線スタイル
 	t.edge(PATH.normalEdge());  // エッジを設定
 	t.step(2);

@@ -1,0 +1,9 @@
+{
+	"url": "file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637867380602/index.html",
+	"col": 14,
+	"line": 25,
+	"msg": "Uncaught TypeError: PATH.sawtooEdge is not a function",
+	"stack": "TypeError: PATH.sawtooEdge is not a function\n    at draw (file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637867380602/index.html:25:14)\n    at loop (file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637867380602/lib/croqujs.js:930:6)",
+	"isUserCode": true,
+	"fileName": "index.html"
+}

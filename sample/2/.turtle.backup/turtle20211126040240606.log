@@ -1,0 +1,9 @@
+{
+	"url": "file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637866961284/lib/style.js",
+	"col": 4,
+	"line": 778,
+	"msg": "Uncaught Error: 色の名前が間違っています。",
+	"stack": "Error: 色の名前が間違っています。\n    at checkColor (file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637866961284/lib/style.js:778:10)\n    at Fill.addColor (file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637866961284/lib/style.js:206:4)\n    at draw (file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637866961284/index.html:23:28)\n    at loop (file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637866961284/lib/croqujs.js:930:6)",
+	"isUserCode": false,
+	"fileName": "lib/style.js"
+}
