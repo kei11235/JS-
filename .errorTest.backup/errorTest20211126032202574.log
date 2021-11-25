@@ -1,0 +1,9 @@
+{
+	"url": "file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637864523142/index.html",
+	"col": 14,
+	"line": 1,
+	"msg": "Uncaught SyntaxError: Unexpected token '{'",
+	"stack": "SyntaxError: Unexpected token '{'",
+	"isUserCode": true,
+	"fileName": "index.html"
+}

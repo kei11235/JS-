@@ -1,0 +1,9 @@
+{
+	"url": "file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637864549598/index.html",
+	"col": 3,
+	"line": 1,
+	"msg": "Uncaught ReferenceError: comsole is not defined",
+	"stack": "ReferenceError: comsole is not defined\n    at file:///var/folders/4x/2rdv4zbn2bz09px7jkt8jr4w0000gn/T/croqujs-1637864549598/index.html:1:131",
+	"isUserCode": true,
+	"fileName": "index.html"
+}
